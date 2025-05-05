@@ -1,0 +1,11 @@
+a=int(input("enter the marks"))
+if a>=91:
+ print("A GRADE")
+elif a>=81:
+ print("B GRADE")
+elif a>=71:
+ print("C GRADE")
+elif a>=35 and a<=71:
+ print("D GRADE")
+else:
+ print("fail")
